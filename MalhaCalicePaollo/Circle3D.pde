@@ -1,6 +1,8 @@
 PImage img;
 PrintWriter output;
 
+// Este código foi feito para gerar os vértices de forma automatizada para tornar a geração de malhas mais eficiente.
+
 void setup() {
   size(32,32);
   float xt, yt, zt;
